@@ -1,0 +1,262 @@
+.header{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    background-image: url("/assets/aboutdlc.jpg");
+    background-size: 100% 100% ;
+}
+.links{
+    display: flex;
+    width: 60%;
+    height: 23%;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 12%;
+    height:17%;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    left: 70px;
+    top:13px;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+.mid-one{
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.midone-child{
+    font-size: 2.5rem;
+    color: #454545;
+    text-align: center;
+}
+.mid-two{
+    display: flex;
+    height: 120vh;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+.midtwo-f{
+    display: flex;
+    height: 70%;
+    width: 35%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.midtwo-s{
+    display: flex;
+    height: 90%;
+    width: 35%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#head-f{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #454545;
+}
+#headf-p1,#headf-p2{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #777;
+    line-height: 1.5;
+}
+.mid-three{
+    display: flex;
+    height: 190vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:5%;
+    background-color: #181f1e;
+    
+}
+.midt-heading{
+    display: flex;
+    height: 10%;
+    width:30%;
+    justify-content: flex-start;
+    position:relative;
+    top:90px;
+    left:51px;
+    color: white;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+.midt-para{
+  display: flex;
+  height: 30%;
+  width: 35%;
+  position:relative;
+  top:95px;
+  right:40px;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 50;
+  line-height: 1.45;
+}
+.midt-video{
+    display:flex;
+    width: 73%;
+    height: 45%;
+}
+.mid-four{
+    display: flex;
+    height: 150vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+#four-img{
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+.mid-five{
+    display: flex;
+    height: 135vh;
+    width: 100vw;
+    justify-content: space-around;
+}
+.mf-left{
+    display: flex;
+    height: 66%;
+    width: 35%;
+}
+.mf-right{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 35%;
+    position: relative;
+    top:150px;
+    gap:9.5%;
+}
+.mf-para{
+     font-size: 1.4rem;
+     line-height: 1.2;
+}
+#mf-lines{
+    color: #777;;
+}
+.mid-six{
+    display: flex;
+    height: 145vh;
+    width: 100vw;
+    justify-content: flex-start;
+}
+.msix-img{
+    height: 87%;
+    width: 100%;
+}
+.first-footer{
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    flex-direction: column;
+    background-image: url("/assets/footerexp.jpg");
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+}
+.footer{
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #161F1E;
+}
+
+.flogo{
+    display: flex;
+    height:20%;
+    width: 14%;
+    justify-content:flex-start;
+    position: relative;
+    top: 100px;
+    left: 80px;
+}
+
+.flogo img{
+    height:4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+.flinks{
+    display: flex;
+    flex-flow:row wrap;
+    height: 50%;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    position: relative;
+    top: 90px;
+    left: 80px;
+    align-items: flex-start;
+}
+.copyright{
+    display: flex;
+    height: 10%;
+    width: 35%;
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    top: 49px;
+    right: 320px;
+}
+#foot-text{
+    display: flex;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.button {
+    border: 0.5px solid black;
+    padding: 15px 32px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button {
+    border: 0.5px solid white;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

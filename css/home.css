@@ -1,0 +1,245 @@
+.main{
+    display: flex;
+    height: 103vh;
+    width: 100vw;
+    justify-content: center;
+}
+#myVideo{
+    height: 97%;
+    width: 100vw;
+    object-fit: fill;
+    position: absolute;
+    z-index: -1;
+}
+.header{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    width: 60%;
+    height: 40%;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 12%;
+    height:17%;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    left: 70px;
+    top:30px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.mid-one{
+    display: flex;
+    height: 145vh;
+    width: 100vw;
+    justify-content: space-around;
+    background-image: url("/assets/home-midback.jpg");
+    background-size: 100% 100%;
+}
+.mf-right{
+    display: flex;
+    height: 60%;
+    width: 35%;
+    position: relative;
+    top: 40px;
+}
+.mf-left{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 35%;
+    justify-content: flex-start;
+    position: relative;
+    gap:27%;
+}
+.mf-para{
+     font-size: 1.4rem;
+     line-height: 1.3;
+}
+#mf-lines{
+    color: #777;
+}
+#head-mf{
+    font-size: 3rem;
+    font-size: 100;
+    color: #454545;
+    font-style: italic;
+
+}
+.mid-two{
+    display: flex;
+    height: 150vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #f3f3f3;
+}
+.midto-f{
+     display: flex;
+     height: 37.5%;
+     width: 80%;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: flex-start;
+     position: relative;
+     left: 150px;
+}
+.midtf-links{
+    display: flex;
+    height: 10%;
+    width: 40%;
+    justify-content:space-between ;
+    font-size: 1.3rem;
+}
+ #midtf-head{
+    color: #454545;
+    font-size:3rem;
+} 
+#midtf-para{
+    color: #777;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+.midto-s{
+    display: flex;
+    height: 70%;
+    width: 100%;
+}
+.midto-globe{
+    display: flex;
+    height: 100%;
+    width: 70;
+    z-index: 1;
+    position:absolute;
+    background-size: 100% 100%;
+}
+.midto-bg{
+    display: flex; 
+    height: 70%;
+    width: 54%;
+    z-index: 2;
+    justify-content: flex-start;
+    position: relative;
+    top: 120px;
+    left:700px;
+    background-color: #161f1e;
+    
+}
+.midto-img{
+    display: flex;
+    height: 70%;
+    width: 17%;
+    z-index: 3;
+    position: relative;
+    left:370px;
+}
+.mid-three{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.midth-first{
+    display: flex;
+    height: 100%;
+    width: 33.3%;
+    background-image: url("/assets/homemidpool.jpg");
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 5;
+    font-size: 3rem;
+}
+.midth-second{
+    display: flex;
+    height: 100%;
+    width: 33.3%;
+    background-image: url("/assets/homemidlife.jpg");
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 5;
+    font-size: 3rem;
+}
+.midth-third{
+    display: flex;
+    height: 100%;
+    width: 33.3%;
+    background-image: url("/assets/homemidwellness.jpg");
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 5;
+    font-size: 3rem;
+}
+.footer{
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #161F1E;
+}
+
+.flogo{
+    display: flex;
+    height:20%;
+    width: 14%;
+    justify-content:flex-start;
+    position: relative;
+    top: 100px;
+    left: 80px;
+}
+
+.flogo img{
+    height:4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+.flinks{
+    display: flex;
+    flex-flow:row wrap;
+    height: 50%;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    position: relative;
+    top: 90px;
+    left: 80px;
+    align-items: flex-start;
+}
+.copyright{
+    display: flex;
+    height: 10%;
+    width: 35%;
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    top: 49px;
+    right: 320px;
+}
+#foot-text{
+    display: flex;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    color: white;
+}

@@ -172,6 +172,33 @@ a{
     height: 87%;
     width: 100%;
 }
+.mid-seven{
+    display: flex;
+    height: 135vh;
+    width: 100vw;
+    justify-content: space-around;
+}
+.ms-left{
+    display: flex;
+    height: 66%;
+    width: 35%;
+}
+.ms-right{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 35%;
+    position: relative;
+    top:150px;
+    gap:9.5%;
+}
+.ms-para{
+     font-size: 1.4rem;
+     line-height: 1.2;
+}
+#ms-lines{
+    color: #777;;
+}
 .first-footer{
     display: flex;
     height: 70vh;
@@ -259,4 +286,397 @@ a{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+  }
+  @media only screen and (min-width:320px) and (max-width:480px){
+    .header{
+        width: 100%; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+    }
+    .logo{
+        display: flex;
+        width: 50%;
+        height: 10%;
+        position: absolute;
+        top: 12%;
+        left: 24%;
+    }
+    .links{
+        display: none;
+    }
+    .midone-child{
+        font-size: 1.8rem;
+    }
+    .mid-two{
+        flex-direction: column;
+        height: auto;
+    }
+    .midtwo-f{
+        width: 90%;
+        font-size: 0.5rem;
+    }
+    .midtwo-s{
+        width: 90%;
+    }
+    .mid-three{
+        height: 150vh;
+         flex-direction: column;
+         justify-content: flex-start;
+        
+    }
+    .midt-heading{
+        width: 70%;
+        left: 15%;
+    }
+    .midt-para{
+        width: 90%;
+        left: 5%;
+        height:25% ;
+    }
+    .midt-video{
+        width: 90%;
+        height: 30%;
+        align-self: center;
+        position: relative;
+        top: 14%;
+    }
+    .mid-four{
+        height: 80vh;
+    }
+    #four-img{
+        height: 80%;
+    }
+    .mid-five{
+        flex-direction: column;
+        height: 150vh;
+        justify-content: flex-start;
+    }
+    .mf-left{
+        align-self: center;
+        height: 30%;
+        width: 90%;
+    }
+    .mf-right{
+        align-self: center;
+        width: 90%;
+        height: 50%;
+    }
+    .mf-para{
+        font-size: 1.5rem;
+    }
+    .mid-six{
+        height: 80vh;
+        justify-content:center;
+    }
+    .msix-img{
+        height: 100%;
+    }
+    .mid-seven{
+        flex-direction: column;
+        height: 180vh;
+        justify-content: flex-start;
+    }
+    .ms-left{
+        align-self: center;
+        width: 90%;
+        height: 40%;
+        position: relative;
+        top: 24.5%;
+    }
+    .ms-right{
+        align-self: center;
+        width: 90%;
+        height: 30%;
+    }
+    .ms-para{
+        font-size: 1.5rem;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+      .flinks{
+        height: 37%;
+        width: 80%;
+        font-size: .99rem;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      .flogo{
+           width: 40%;
+           height: 15%;
+           top: 50px;
+      }
+      .copyright{
+        align-self: center;
+        left:5px;
+        height: 10%;
+        width: 80%;
+        top:290px;
+      }
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px){
+    .header{
+        width: 100%; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+    }
+    .logo{
+        display: flex;
+        width: 50%;
+        height: 10%;
+        position: absolute;
+        top: 12%;
+        left: 24%;
+    }
+    .links{
+        display: none;
+    }
+    .midone-child{
+        font-size: 1.7rem;
+    }
+    .mid-two{
+
+        flex-direction: column;
+        height: auto; 
+    }
+    .midtwo-f{
+        width: 70%;
+        font-size: 0.5rem;
+    }
+    .midtwo-s{
+        width: 70%;
+    }
+    .mid-three{
+        height: 150vh;
+         flex-direction: column;
+         justify-content: flex-start;
+        
+    }
+    .midt-heading{
+        width: 70%;
+        left: 5%;
+        align-self: center;
+    }
+    .midt-para{
+        width: 70%;
+        left: 5%;
+        height:25% ;
+        align-self: center;
+    }
+    .midt-video{
+        width: 70%;
+        height: 30%;
+        align-self: center;
+        position: relative;
+        top: 14%;
+    }
+    .mid-four{
+        height: 80vh;
+    }
+    #four-img{
+        height: 80%;
+    }
+    .mid-five{
+        flex-direction: column;
+        height: 150vh;
+        justify-content: flex-start;
+    }
+    .mf-left{
+        align-self: center;
+        height: 30%;
+        width: 70%;
+    }
+    .mf-right{
+        align-self: center;
+        width: 70%;
+        height: 50%;
+    }
+    .mf-para{
+        font-size: 1.5rem;
+    }
+    .mid-six{
+        height: 80vh;
+        justify-content:center;
+    }
+    .msix-img{
+        height: 100%;
+    }
+    .mid-seven{
+        flex-direction: column;
+        height: 180vh;
+        justify-content: flex-start;
+    }
+    .ms-left{
+        align-self: center;
+        width: 70%;
+        height: 40%;
+        position: relative;
+        top: 24.5%;
+    }
+    .ms-right{
+        align-self: center;
+        width: 70%;
+        height: 30%;
+    }
+    .ms-para{
+        font-size: 1.5rem;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+      }
+      .flinks{
+        height: 37%;
+        width: 80%;
+        font-size: .99rem;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+      }
+      .flogo{
+           width: 40%;
+           height: 15%;
+           top: 50px;
+      }
+      .copyright{
+        align-self: center;
+        left:5px;
+        height: 10%;
+        width: 80%;
+        top:150px;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px){
+    .header{
+        width: 100%; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+    }
+    .logo{
+        display: flex;
+        width: 50%;
+        height: 10%;
+        position: absolute;
+        top: 12%;
+        left: 24%;
+    }
+    .links{
+        display: none;
+    }
+    .midone-child{
+        font-size: 1.8rem;
+    }
+    .mid-two{
+
+        flex-direction: column;
+        height: auto; 
+    }
+    .midtwo-f{
+        width: 60%;
+        font-size: 0.5rem;
+    }
+    .midtwo-s{
+        width: 60%;
+    }
+    .mid-three{
+        height: 150vh;
+         flex-direction: column;
+         justify-content: flex-start;
+        
+    }
+    .midt-heading{
+        width: 70%;
+        left: 15%;
+    }
+    .midt-para{
+        width: 60%;
+        height:25% ;
+        align-self: center;
+    }
+    .midt-video{
+        width: 70%;
+        height: 30%;
+        align-self: center;
+        position: relative;
+        top: 14%;
+    }
+    .mid-four{
+        height: 80vh;
+    }
+    #four-img{
+        height: 80%;
+    }
+    .mid-five{
+        flex-direction: column;
+        height: 150vh;
+        justify-content: flex-start;
+    }
+    .mf-left{
+        align-self: center;
+        height: 30%;
+        width: 60%;
+    }
+    .mf-right{
+        align-self: center;
+        width: 60%;
+        height: 50%;
+    }
+    .mf-para{
+        font-size: 1.5rem;
+    }
+    .mid-six{
+        height: 80vh;
+        justify-content:center;
+    }
+    .msix-img{
+        height: 100%;
+    }
+    .mid-seven{
+        flex-direction: column;
+        height: 180vh;
+        justify-content: flex-start;
+    }
+    .ms-left{
+        align-self: center;
+        width: 60%;
+        height: 40%;
+        position: relative;
+        top: 24.5%;
+    }
+    .ms-right{
+        align-self: center;
+        width: 60%;
+        height: 30%;
+    }
+    .ms-para{
+        font-size: 1.5rem;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+      }
+      .flinks{
+        height: 37%;
+        width: 80%;
+        font-size: .99rem;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+      }
+      .flogo{
+           width: 40%;
+           height: 15%;
+           top: 50px;
+      }
+      .copyright{
+        align-self: center;
+        left:5px;
+        height: 10%;
+        width: 80%;
+        top:150px;
+    }
   }
